@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.Portal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.like {
+  border: 0.5px solid lightgreen;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: lightgreen;
+}
+
+
+.dislike {
+  border: 1px solid lightcoral;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: lightcoral;
+}
+
+button {
+  border: none;
+  background-color: white;
+  font-size: larger;
+}
+a{
+background-color: white;
+  opacity: 1;
+  margin: 0 5px;
+  border-radius:5px ;
+}
+.counter {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.movie-container {
+  margin: 30px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 5px 10px 20px rgb(41, 41, 41);
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.movie-poster {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.movie-spec {
+  display: flex;
+  /* flex-wrap: wrap; */
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-summary {
+  text-align: justify;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  /* align-items: center; */
+}
